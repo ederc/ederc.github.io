@@ -13,6 +13,9 @@
   .special-column-teaching { font-weight:normal; vertical-align:top;}
   .special-column-author { max-width:150px; text-align:center}
   .special-column-journal { max-width:400px;}
+  .special-column-software { text-align:center;}
+  .special-column-info { text-align:right;}
+  .special-column-description { max-width:550px;}
   .special-column-title { max-width:470px;}
   .special-column-conference { max-width:650px;}
   .blank-row {height:20px;}
@@ -23,6 +26,7 @@
   <b>Christian Eder</b><br><br>
   <a href="#teaching">Teaching</a>
   | <a href="#publications">Publications</a>
+  | <a href="#software">Software</a>
   | <a href="#talks">Talks</a>
   | <a href="#conferences">Conferences & Workshops</a>
   | <a href="#contact">Contact</a>
@@ -366,6 +370,93 @@ The Computer Science Journal of Moldova, Volume 16, 4-14
 </div>
 </div>
 
+<!--
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+SOFTWARE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+-->
+<div>
+<h3 id="software">
+------------------ &nbsp; Software &nbsp; ------------------
+</h3>
+<div class="centered">
+<table class="publications">
+<tr>
+<td class="special-column-info">
+A library for exact linear algebra
+</td>
+<td class="special-column-software">
+<a href="https://github.com/Singular/LELA">LELA</a>
+</td>
+<td class="special-column-description">
+Library implemented by Bradford Hovinen and Fayssal Martani. Supported for structured
+hybrid sparse-dense matrices. Further testing and improving this library.
+</td>
+</tr>
+<tr>
+<td class="special-column-info">
+A library for computing Gr&ouml;bner bases
+</td>
+<td class="special-column-software">
+<a href="https://github.com/ederc/xmalloc">MathicGB</a>
+</td>
+<td class="special-column-description">
+Library written by Bjarke Hammersholt Roune and Mike Stillman. Supported Bjarke
+by implementing linear algebra for Gr&ouml;bner basis computations.
+</td>
+</tr>
+<tr>
+<td class="special-column-info">
+A library for testing different parallel scheduler for dense linear algebra
+</td>
+<td class="special-column-software">
+<a href="https://github.com/ederc/pLA">pLA</a>
+</td>
+<td class="special-column-description">
+Library written to test various parallel schedulers (like OpenMP, Intel TBB,
+xKAAPI, etc.) and compare their behaviours for dense linear algebra, esp.
+Gaussian Elimination.
+</td>
+</tr>
+<tr>
+<td class="special-column-info">
+A computer algebra system 
+</td>
+<td class="special-column-software">
+<a href="https://github.com/Singular/Sources">Singular</a>
+</td>
+<td class="special-column-description">
+Implemented fast signature-based Gr&ouml;bner basis algorithms covering many
+variants like F5, G2V, GVW, etc.
+</td>
+</tr>
+<tr>
+<td class="special-column-info">
+Benchmark file in Singular language
+</td>
+<td class="special-column-software">
+<a href="https://github.com/ederc/singular-benchmarks">singular-benchmarks</a>
+</td>
+<td class="special-column-description">
+Various Gr&ouml;bner basis benchmarks for the Singular computer algebra system.
+</td>
+</tr>
+<tr>
+<td class="special-column-info">
+A library for special-purpose memory allocation
+</td>
+<td class="special-column-software">
+<a href="https://github.com/ederc/xmalloc">xmalloc</a>
+</td>
+<td class="special-column-description">
+Implemented a special-purpose memory allocation for the computer algebra system
+Singular (used Singular's omalloc implementation as a basis).
+</td>
+</tr>
+
+</table>
+</div>
+</div>
 <!--
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 TALKS
